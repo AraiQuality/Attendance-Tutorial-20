@@ -4,6 +4,7 @@ User.create!(name: 'Sample User',
              email: 'sample@email.com',
              password: 'password',
              password_confirmation: 'password',
+             department: '管理部',
              admin: true)
              
 60.times do |n|
